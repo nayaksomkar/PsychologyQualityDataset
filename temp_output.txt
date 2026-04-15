@@ -1,0 +1,11 @@
+=== CELL 0 (code) ===
+# Install packages (fix the syntax)
+!pip install --upgrade pip
+!pip install torch==2.6.0+cu124 torchvision==0.21.0+cu124 torchaudio==2.6.0+cu124 --index-url https://download.pytorch.org/whl/cu124
+!pip install "unsloth[colab-new] @ git+https://github.com/unslothai/unsloth.git" --no-deps
+!pip install gcsfs==2025.3.0 fsspec==2025.3.0 rich==13.9.4 google-cloud-bigquery==3.31.0 google-cloud-bigquery-storage==2.31.0 numpy<2.0
+!pip install trl peft accelerate bitsandbytes transformers datasets --no-deps
+!pip install unsloth_zoo --no-deps
+!pip install datasets pandas -q
+
+=== CELL 1 (code) ===
