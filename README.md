@@ -51,13 +51,6 @@ This dataset was created using a **Kaggle Notebook**. The notebook handles all t
 - **Python:** Version 3.12
 - **Key Libraries:** torch, transformers, datasets, pandas
 
-### Installation
-The notebook installs required packages:
-```python
-!pip install torch
-!pip install transformers datasets pandas
-```
-
 ### Processing Steps in Code
 1. **Load datasets** - Fetch all 5 datasets from HuggingFace using `load_dataset`
 2. **Convert format** - Convert different formats to standard conversation structure (user/assistant)
