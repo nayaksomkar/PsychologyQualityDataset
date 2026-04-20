@@ -13,6 +13,9 @@ A cleaned and filtered dataset combining multiple public HuggingFace psychology 
 - Ready for fine-tuning language models
 
 ---
+## HuggingFace main Dataset
+
+[huggingface.co/datasets/nayaksomkar/PsychologyQualityDatase](https://huggingface.co/datasets/nayaksomkar/PsychologyQualityDatase)
 
 ## 📊 Source Datasets
 
